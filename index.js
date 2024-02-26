@@ -10,7 +10,6 @@ const viewFavoritesButton = document.getElementById("like");
 const favoritesList = document.getElementById("favoritesList");
 
 // Function to search movies.
-let searchTimeout;
 async function searchMovies() {
 	const searchTerm = searchInput.value;
 
