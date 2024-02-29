@@ -11,7 +11,7 @@ const favoritesList = document.getElementById("favoritesList");
 
 // Function to search movies.
 async function searchMovies() {
-	const searchTerm = searchInput.value;
+	const searchTerm = search.value;
 
 	const response = await fetch(
 		`https://www.omdbapi.com/?apikey=${apiKey}&s=${searchTerm}`
@@ -29,8 +29,8 @@ async function searchMovies() {
 }
 
 // Here is the Add event listener for Enter key
-if (searchInput) {
-	searchInput.addEventListener("keyup", (e) => {
+if (search) {
+	search.addEventListener("keyup", (e) => {
 		if (e.key === "Enter") {
 			searchMovies();
 			searchDropdown.style.visibility = "hidden";
