@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Here is the title for the Page -->
+    <title>IMDB | Home</title>
+
+    <!-- Here CSS file is linked -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Here are some icons from the font awesome -->
+    <script src="https://kit.fontawesome.com/56e1168256.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+        <!-- This is the Nav bar, contains IMDB Logo, Search Box, Favorites and Sign in option -->
+        <nav>
+
+            <!-- This Div for Nav bar -->
+            <div id="nav_container">
+                   
+                    <!-- Here is the Logo Div-->
+                    <div id="logo">
+                        <a href="#">
+                            <!-- This is the Logo image -->
+                            <img src="imdb-logo.png" alt="IMDb-logo">
+                        </a>
+                    </div>
+                   
+                    <!-- This is the Search Engine Div -->
+                    <div class="searchContainer">
+                        
+                    <!-- Here is the Search Input Box -->
+                        <input type="text" id="searchInput" placeholder="Search for a movie...">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <!-- Here is the Dropdown -->
+                        <div id="searchDropdown" class="dont-close-dropdown"></div>
+                    </div>
+                    
+                <!-- This is for Favorite List and Dummy Sign In -->
+                <div id="profile">
+
+                    <!-- Here is Favorites -->
+                    <div id="like">
+                        <a href="favoritespage.html" id="viewFavoritesButton">Favorites <i class="fa-solid fa-list"></i></a>
+                    </div>
+                    
+                    <!-- Here is the Dummy Sign In -->
+                    <div id="user">
+                        <P>Sign In <i class="fa-solid fa-user"></i></P>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- This is the Main Content Div -->
+        <main>
+            <div id="movieList">
+            <!-- Searched movies will be shown here -->
+            </div>
+        </main>
+    
+    <!-- Here JavaScript File is linked -->
+    <script src="index.js"></script>
+
+</body>
+</html>

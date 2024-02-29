@@ -1,0 +1,67 @@
+/* This is the body tag */
+html,
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    background-color: rgb(1, 1, 20);
+}
+
+/* Here is the Home Button */
+#homeBtn{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    font-size: 1.2rem;
+    color: yellow;
+    text-decoration: none;
+}
+
+/* Here is the Headline */
+#favoriteMovies{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+/* This is the Favourite Movie List */
+#favoritesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Main content */
+#mainContent {
+    display: flex;
+}
+
+/* Movie cards */
+.movie,
+.favorite-movie {
+  background-color: rgb(197, 169, 56);
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  max-width: 300px;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 2%;
+}
+
+/* Remove Button  */
+.remove-from-favorites{
+    border: none;
+    padding: 12px 18px;
+    border-radius: 24px;
+    font-size: 0.8rem;  
+    letter-spacing: 2px;  
+    cursor: pointer;
+    color: #6f610f;
+}
+
+/* Movie card Hover */
+.movie:hover,
+.favorite-movie:hover {
+  transform: translateY(-5px);
+}
