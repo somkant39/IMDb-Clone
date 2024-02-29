@@ -1,6 +1,5 @@
 // Here is the API Key
 const apiKey = "5a8545bd";
-const searchInput = document.getElementById("searchInput");
 const search = document.getElementById("searchInput");
 const searchDropdown = document.getElementById("searchDropdown");
 const searchButton = document.querySelector(".fa-magnifying-glass");
