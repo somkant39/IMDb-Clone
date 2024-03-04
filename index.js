@@ -166,7 +166,7 @@ search.addEventListener("keyup", (data) => {
 			for (let movie of data.Search) {
 				let dropdownElement = document.createElement("a");
 
-				dropdownElement.href = `/moviedetail.html?id=${movie.imdbID}`;
+				dropdownElement.href = `moviedetail.html?id=${movie.imdbID}`;
 				dropdownElement.innerText = movie.Title;
 
 				searchDropdown.appendChild(dropdownElement);
