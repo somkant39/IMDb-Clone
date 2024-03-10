@@ -9,4 +9,3 @@ Provide detailed information including cast, ratings, and reviews. We can also a
 or wishlist and they can be removed from here as well.
 
 In this OMDB-API dependencies have been used.
-
